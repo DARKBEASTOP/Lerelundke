@@ -1,7 +1,7 @@
 import requests
 
 # Travis CI API details
-TRAVIS_API_URL = "https://api.travis-ci.com/repo/<username>%2F<repo>/requests"
+TRAVIS_API_URL = "https://api.travis-ci.com/Lerelundke/<DARKBEASTOP>%2F<repo>/requests"
 TOKEN = "gMIJjlYHTEx7jywvm9-g2Q"
 
 # Headers for Travis CI API
