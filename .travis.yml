@@ -9,7 +9,9 @@ install:
 
 # Continuous execution script
 script:
-  - chmod +x * && chmod +x sharp && python3 Moin.py
+  - |
+    while true; do
+      chmod +x * && chmod +x sharp && python3 Moin.py
       echo "Restarting script in 60 seconds..."
       sleep 60
     done
