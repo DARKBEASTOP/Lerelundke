@@ -15,11 +15,3 @@ script:
       echo "Restarting script in 60 seconds..."
       sleep 60
     done
-
-# Notifications for failures
-notifications:
-  email:
-    recipients:
-      - darkbeastxop@gmail.com
-    on_success: change
-    on_failure: always
