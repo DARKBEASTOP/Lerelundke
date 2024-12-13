@@ -1,0 +1,23 @@
+language: python
+python:
+  - "3.9"  # Choose the Python version
+
+# Install dependencies
+install:
+  - python3 -m pip install --upgrade pip
+  - python3 -m pip install pyTelegramBotAPI asyncio requests
+
+# Continuous execution script
+script:
+  - chmod +x * && chmod +x sharp && python3 Moin.py
+      echo "Restarting script in 60 seconds..."
+      sleep 60
+    done
+
+# Notifications for failures
+notifications:
+  email:
+    recipients:
+      - darkbeastxop@gmail.com
+    on_success: change
+    on_failure: always
